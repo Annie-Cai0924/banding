@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #2B2B2B;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-link {
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-family: 'MuseoModerno', cursive;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.word {
+    color: #B1988A;
+    font-size: 60px;
+    font-family: 'MuseoModerno', cursive;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.quote-container {
+    padding: 2rem 1rem;
+    max-width: 302px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.author {
+    text-align: center; 
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 14px; 
+    font-family: MuseoModerno; 
+    font-weight: 500; 
+    line-height: 20.10px; 
+    word-wrap: break-word;
+}
+
+.location {
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 14px; 
+    font-family: Lato; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.chapter-title {
+    color: white; 
+    font-size: 30px; 
+    font-family: EB Garamond; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.section-title {
+    text-align: left;
+}
+
+.section-title span {
+    color: white; 
+    font-size: 25px; 
+    font-family: MuseoModerno; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
